@@ -1,0 +1,13 @@
+{
+  "DD_ENV": "testing",
+  "DD_SERVICE": "WeatherApp",
+  "DD_VERSION": "1",
+  "DD_TRACE_DEBUG": "true",
+  "DD_TRACE_SAMPLING_RULES": [
+      {
+          "service": "weatherapp",
+          "resource_name": "GET /weatherforecast",
+          "sample_rate": 0.0
+      }
+  ]
+}
